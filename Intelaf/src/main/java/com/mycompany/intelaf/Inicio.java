@@ -5,6 +5,9 @@
  */
 package com.mycompany.intelaf;
 
+import Clases.Sistema;
+import GUI.InicioSesion;
+
 /**
  *
  * @author baquiax
@@ -16,6 +19,7 @@ public class Inicio {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        InicioSesion inicioSesion = new InicioSesion(new Sistema());
     }
-    
+
 }
